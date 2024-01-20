@@ -78,10 +78,13 @@ body {
   .navbar-nav {
     flex-direction: column !important;
   }
+  .main {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
   .grid-cards{
     grid-template-columns: auto auto auto;
   }
-
   .card {
     transition: box-shadow .25s;
   }
@@ -96,6 +99,5 @@ body {
     filter: grayscale(0%);
     transform: scale(1.1);
   }
-
 }
 
